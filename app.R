@@ -98,7 +98,7 @@ server <- function(input, output) {
     diff <- abs(diff(last$Posterior))
 
     paste0(
-      "Die beiden Forschenden starten mit unterschiedlichen Priors. ",
+      "Die beiden Forscher starten mit unterschiedlichen Priors. ",
       "Sie verwenden aber dieselbe Aktualisierungsregel. ",
       "Nach ", input$n, " positiven Evidenzen beträgt der Unterschied der Posterioren noch ",
       round(diff, 3), ". ",
